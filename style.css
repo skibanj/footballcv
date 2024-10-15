@@ -1,0 +1,205 @@
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    position: relative;
+    top: 30px;
+    margin-left: 50px;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+.logo {
+    border: 2px solid white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+ul {
+    list-style: none;
+    margin-top: 0px;
+    margin-left: 500px;
+}
+li {
+    display: inline;
+    margin-right: 20px;   
+}
+a {
+    text-decoration: none;
+}
+button {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: "Concert One", sans-serif;
+    font-style: italic;
+}
+.home {
+    background-color: white;
+    color: black;
+}
+.profile {
+    border: 0cap;
+}
+.face {
+    height: 300px;
+    width: 165px;
+    border-radius: 5px;
+    background-color: rgb(27, 26, 26);
+    padding: 10px;
+}
+.left {
+    position: relative;
+    top: 150px;
+    left: 150px;
+    display: inline-block;
+    height: 300px;
+    width: 450px;
+}
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+.right {
+    position: absolute;
+    top: 250px;
+    left: 750px;
+}
+h1 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+}
+h2 {
+    font-family: "Concert One", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 20px;
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    line-height: 20px;
+    font-size: 15px;
+}
+.left > button {
+    margin-top: 35px;
+    background-color: red;
+}
+img {
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.position, .midfield {
+    color: red;
+    font-size: 13px;
+    line-height: 10px;
+    text-align: center;
+}
+.inlogo {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 25px;
+    text-align: center;     
+}
+.teams > img {
+    height: 40px;
+    position: relative;
+    top: 160px;
+    left: 150px;
+    border: 0cap;
+    margin: 5px;
+}
+.team {
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    ul {
+        list-style: none;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    li {
+        display: inline;
+        margin-right: 10px;   
+    }
+    .profile {
+        border: 0cap;
+    }
+    .face {
+        height: 170px;
+        width: 100px;
+        border-radius: 5px;
+        background-color: rgb(27, 26, 26);
+        padding: 10px;
+    }
+    .left {
+        position: relative;
+        top: 100px;
+        left: 100px;
+        display: inline-block;
+        height: 300px;
+        width: 250px;
+    }
+    .right {
+        position: absolute;
+        top: 310px;
+        left: 105px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .face > p {
+        font-size: 7px;
+    }
+    .left > button {
+        margin-top: 210px;
+        background-color: red;
+    }
+    img {
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    .position, .midfield {
+        color: red;
+        font-size: 13px;
+        line-height: 10px;
+        text-align: center;
+    }
+    .inlogo {
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal; 
+        font-size: 25px;
+        text-align: center;     
+    }
+    .teams > img {
+        height: 40px;
+        position: relative;
+        top: 90px;
+        left: 90px;
+        border: 0cap;
+        margin: 5px;
+    }
+    .team {
+        margin-top: 50px;
+    }
+    .inner > img {
+        height: 100px;
+        width: 97px;
+    }
+}
